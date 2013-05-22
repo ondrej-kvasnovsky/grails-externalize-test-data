@@ -12,6 +12,7 @@ Place database init code into a .groovy script, for example DbInitConfig.groovy
     user2.save(failOnError: true)
 
 We shall call in order to run Grails application
+
     grails run-app -Dgrails.db.init.config.location=DbInitConfig.groovy
 
 Now we need to catch the system property in Config.groovy
