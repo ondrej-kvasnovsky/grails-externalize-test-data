@@ -13,7 +13,7 @@ Place database init code into a .groovy script, for example DbInitConfig.groovy
     user2.save(failOnError: true)
 ```
 
-We shall call in order to run Grails application
+We need to add a property, which represents path to the to DbInitConfig.groovy
 
 ```groovy
     grails run-app -Dgrails.db.init.config.location=DbInitConfig.groovy
